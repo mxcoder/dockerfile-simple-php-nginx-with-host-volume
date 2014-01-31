@@ -13,8 +13,9 @@ Usage
 Building the image
 ------------------
 
-sudo docker build -rm -t {my-image-name}
+sudo docker build -rm -t {my-image-name} .
 
+- the final "." is the context.
 - {my-image-name} is the name of the image you're creating, use something descriptive and if possible
 prefix it with your username/nickname
 
